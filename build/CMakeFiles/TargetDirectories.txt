@@ -1,0 +1,3 @@
+D:/AppName/build/CMakeFiles/AppName.dir
+D:/AppName/build/CMakeFiles/edit_cache.dir
+D:/AppName/build/CMakeFiles/rebuild_cache.dir

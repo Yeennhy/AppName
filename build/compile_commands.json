@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/AppName/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/AppName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AppName.dir\\AppName.cpp.obj -c D:\\AppName\\AppName.cpp",
+  "file": "D:/AppName/AppName.cpp",
+  "output": "CMakeFiles/AppName.dir/AppName.cpp.obj"
+}
+]
