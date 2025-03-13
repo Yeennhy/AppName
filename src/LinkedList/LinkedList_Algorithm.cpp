@@ -1,52 +1,30 @@
-/*
+#include <AllLibrary.h>
 
-- check input
-
-- init
-    - base_init
-    - from file
-    - random
-- insert Node
-- delete node by value
-- update node have value U to V
-- search K in linked_list
-
-*/
-
-struct Node {
-    int val;
-    Node *next;
-};
-
-void insert(Node* &head, int key){
-    if(!head){
-        head = new Node();
+void insertNode(LinkedListNode* &head, int key) {
+    if (!head) {
+        head = new LinkedListNode;
         head->val = key;
         head->next = nullptr;
         return;
     }
-    else{
-        Node* tmp = head;
-        while(tmp){
-            tmp = tmp->next;
-        }
-        tmp = new Node();
-        tmp->val = key;
-        tmp->next = nullptr;
-        return;
-    }
+    LinkedListNode * a = head;
+    while (a->next) a = a->next;
+    LinkedListNode * tmp = new LinkedListNode;
+    tmp->val = key;
+    tmp->next = nullptr;
+    a->next = tmp;
 }
 
-void deleteNode(Node* &head, int key){
+void deleteNode(LinkedListNode* &head, int key){
     if(!head) return;
     if(head->val == key){
-        Node* tmp = head;
+        LinkedListNode* tmp = head;
         head = head->next;
         delete tmp;
         return;
     }
     else{
-        Node* tmp = head;
+        LinkedListNode* tmp = head;
         while(tmp && tmp->next && tmp->next->val != key){
             tmp = tmp->next;
         }
@@ -57,16 +35,34 @@ void deleteNode(Node* &head, int key){
     }
 }
 
-Node *search(Node* head, int key){
+LinkedListNode *search(LinkedListNode* head, int key){
     if(!head) return nullptr;
     if(head->val == key) return head;
     return search(head->next, key);
 }
 
 
-void update(Node *&head, int first, int second){
-    Node* tmp = search(head, first);
+void update(LinkedListNode *&head, int &first, int second){
+    LinkedListNode* tmp = search(head, first);
+    if(!tmp) cout << "Not found!";
     tmp->val = second;
     return;
 }
+
+// function test update
+void update1(LinkedListNode *head, int nums[], int key, int id){
+    LinkedListNode *tmp = head;
+    int count = 0;
+
+    while(tmp && count < id) {
+        tmp = tmp->next;
+        count++;
+    }
+
+    if (tmp) {
+        tmp->val = key;
+        nums[id] = key; 
+    }
+}
+
 

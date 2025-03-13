@@ -152,6 +152,78 @@ AppName.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/AppName.cpp.s
 .PHONY : AppName.cpp.s
 
+src/LinkedList/LinkedList.obj: src/LinkedList/LinkedList.cpp.obj
+.PHONY : src/LinkedList/LinkedList.obj
+
+# target to build an object file
+src/LinkedList/LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj
+.PHONY : src/LinkedList/LinkedList.cpp.obj
+
+src/LinkedList/LinkedList.i: src/LinkedList/LinkedList.cpp.i
+.PHONY : src/LinkedList/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.i
+.PHONY : src/LinkedList/LinkedList.cpp.i
+
+src/LinkedList/LinkedList.s: src/LinkedList/LinkedList.cpp.s
+.PHONY : src/LinkedList/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.s
+.PHONY : src/LinkedList/LinkedList.cpp.s
+
+src/LinkedList/LinkedList_Algorithm.obj: src/LinkedList/LinkedList_Algorithm.cpp.obj
+.PHONY : src/LinkedList/LinkedList_Algorithm.obj
+
+# target to build an object file
+src/LinkedList/LinkedList_Algorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj
+.PHONY : src/LinkedList/LinkedList_Algorithm.cpp.obj
+
+src/LinkedList/LinkedList_Algorithm.i: src/LinkedList/LinkedList_Algorithm.cpp.i
+.PHONY : src/LinkedList/LinkedList_Algorithm.i
+
+# target to preprocess a source file
+src/LinkedList/LinkedList_Algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.i
+.PHONY : src/LinkedList/LinkedList_Algorithm.cpp.i
+
+src/LinkedList/LinkedList_Algorithm.s: src/LinkedList/LinkedList_Algorithm.cpp.s
+.PHONY : src/LinkedList/LinkedList_Algorithm.s
+
+# target to generate assembly for a file
+src/LinkedList/LinkedList_Algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.s
+.PHONY : src/LinkedList/LinkedList_Algorithm.cpp.s
+
+src/LinkedList/LinkedList_Animation.obj: src/LinkedList/LinkedList_Animation.cpp.obj
+.PHONY : src/LinkedList/LinkedList_Animation.obj
+
+# target to build an object file
+src/LinkedList/LinkedList_Animation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj
+.PHONY : src/LinkedList/LinkedList_Animation.cpp.obj
+
+src/LinkedList/LinkedList_Animation.i: src/LinkedList/LinkedList_Animation.cpp.i
+.PHONY : src/LinkedList/LinkedList_Animation.i
+
+# target to preprocess a source file
+src/LinkedList/LinkedList_Animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.i
+.PHONY : src/LinkedList/LinkedList_Animation.cpp.i
+
+src/LinkedList/LinkedList_Animation.s: src/LinkedList/LinkedList_Animation.cpp.s
+.PHONY : src/LinkedList/LinkedList_Animation.s
+
+# target to generate assembly for a file
+src/LinkedList/LinkedList_Animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.s
+.PHONY : src/LinkedList/LinkedList_Animation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +236,15 @@ help:
 	@echo ... AppName.obj
 	@echo ... AppName.i
 	@echo ... AppName.s
+	@echo ... src/LinkedList/LinkedList.obj
+	@echo ... src/LinkedList/LinkedList.i
+	@echo ... src/LinkedList/LinkedList.s
+	@echo ... src/LinkedList/LinkedList_Algorithm.obj
+	@echo ... src/LinkedList/LinkedList_Algorithm.i
+	@echo ... src/LinkedList/LinkedList_Algorithm.s
+	@echo ... src/LinkedList/LinkedList_Animation.obj
+	@echo ... src/LinkedList/LinkedList_Animation.i
+	@echo ... src/LinkedList/LinkedList_Animation.s
 .PHONY : help
 
 

@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/AppName/AppName.cpp" "CMakeFiles/AppName.dir/AppName.cpp.obj" "gcc" "CMakeFiles/AppName.dir/AppName.cpp.obj.d"
+  "D:/AppName/src/LinkedList/LinkedList.cpp" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj" "gcc" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj.d"
+  "D:/AppName/src/LinkedList/LinkedList_Algorithm.cpp" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj" "gcc" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj.d"
+  "D:/AppName/src/LinkedList/LinkedList_Animation.cpp" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj" "gcc" "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

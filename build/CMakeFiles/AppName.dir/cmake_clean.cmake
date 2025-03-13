@@ -4,6 +4,12 @@ file(REMOVE_RECURSE
   "AppName.pdb"
   "CMakeFiles/AppName.dir/AppName.cpp.obj"
   "CMakeFiles/AppName.dir/AppName.cpp.obj.d"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj.d"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj.d"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj"
+  "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj.d"
   "libAppName.dll.a"
 )
 

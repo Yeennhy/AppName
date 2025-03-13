@@ -84,12 +84,12 @@ clean: CMakeFiles/AppName.dir/clean
 CMakeFiles/AppName.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AppName\build\CMakeFiles --progress-num=1,2 "Built target AppName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AppName\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target AppName"
 .PHONY : CMakeFiles/AppName.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AppName.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppName\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppName\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AppName.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppName\build\CMakeFiles 0
 .PHONY : CMakeFiles/AppName.dir/rule
@@ -101,7 +101,7 @@ AppName: CMakeFiles/AppName.dir/rule
 # codegen rule for target.
 CMakeFiles/AppName.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AppName.dir\build.make CMakeFiles/AppName.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AppName\build\CMakeFiles --progress-num=1,2 "Finished codegen for target AppName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AppName\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target AppName"
 .PHONY : CMakeFiles/AppName.dir/codegen
 
 # clean rule for target.

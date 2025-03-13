@@ -4,5 +4,23 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/AppName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AppName.dir\\AppName.cpp.obj -c D:\\AppName\\AppName.cpp",
   "file": "D:/AppName/AppName.cpp",
   "output": "CMakeFiles/AppName.dir/AppName.cpp.obj"
+},
+{
+  "directory": "D:/AppName/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/AppName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AppName.dir\\src\\LinkedList\\LinkedList.cpp.obj -c D:\\AppName\\src\\LinkedList\\LinkedList.cpp",
+  "file": "D:/AppName/src/LinkedList/LinkedList.cpp",
+  "output": "CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj"
+},
+{
+  "directory": "D:/AppName/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/AppName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AppName.dir\\src\\LinkedList\\LinkedList_Algorithm.cpp.obj -c D:\\AppName\\src\\LinkedList\\LinkedList_Algorithm.cpp",
+  "file": "D:/AppName/src/LinkedList/LinkedList_Algorithm.cpp",
+  "output": "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj"
+},
+{
+  "directory": "D:/AppName/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/AppName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AppName.dir\\src\\LinkedList\\LinkedList_Animation.cpp.obj -c D:\\AppName\\src\\LinkedList\\LinkedList_Animation.cpp",
+  "file": "D:/AppName/src/LinkedList/LinkedList_Animation.cpp",
+  "output": "CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj"
 }
 ]

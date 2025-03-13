@@ -16,10 +16,11 @@ include_directories(include)
 
 # add source file
 file (GLOB SRC "src/*.cpp")
+file (GLOB LINKED_LIST "src/LinkedList/*.cpp")
 file (GLOB MAIN "*.cpp")
 
 # add all file to queue
-set(SOURCE ${SRC} ${MAIN})
+set(SOURCE ${SRC} ${MAIN} ${LINKED_LIST})
 
 add_executable(AppName WIN32 ${SOURCE})
 
