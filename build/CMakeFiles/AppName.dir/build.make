@@ -76,60 +76,60 @@ CMakeFiles/AppName.dir/AppName.cpp.obj: CMakeFiles/AppName.dir/includes_CXX.rsp
 CMakeFiles/AppName.dir/AppName.cpp.obj: D:/AppName/AppName.cpp
 CMakeFiles/AppName.dir/AppName.cpp.obj: CMakeFiles/AppName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AppName\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AppName.dir/AppName.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/AppName.cpp.obj -MF CMakeFiles\AppName.dir\AppName.cpp.obj.d -o CMakeFiles\AppName.dir\AppName.cpp.obj -c D:\AppName\AppName.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/AppName.cpp.obj -MF CMakeFiles\AppName.dir\AppName.cpp.obj.d -o CMakeFiles\AppName.dir\AppName.cpp.obj -c D:\AppName\AppName.cpp
 
 CMakeFiles/AppName.dir/AppName.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppName.dir/AppName.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\AppName.cpp > CMakeFiles\AppName.dir\AppName.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\AppName.cpp > CMakeFiles\AppName.dir\AppName.cpp.i
 
 CMakeFiles/AppName.dir/AppName.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppName.dir/AppName.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\AppName.cpp -o CMakeFiles\AppName.dir\AppName.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\AppName.cpp -o CMakeFiles\AppName.dir\AppName.cpp.s
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj: CMakeFiles/AppName.dir/flags.make
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj: CMakeFiles/AppName.dir/includes_CXX.rsp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj: D:/AppName/src/LinkedList/LinkedList.cpp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj: CMakeFiles/AppName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AppName\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.obj -c D:\AppName\src\LinkedList\LinkedList.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.obj -c D:\AppName\src\LinkedList\LinkedList.cpp
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.i
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppName.dir/src/LinkedList/LinkedList.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList.cpp.s
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj: CMakeFiles/AppName.dir/flags.make
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj: CMakeFiles/AppName.dir/includes_CXX.rsp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj: D:/AppName/src/LinkedList/LinkedList_Algorithm.cpp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj: CMakeFiles/AppName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AppName\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.obj -c D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.obj -c D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.i
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Algorithm.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList_Algorithm.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Algorithm.cpp.s
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj: CMakeFiles/AppName.dir/flags.make
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj: CMakeFiles/AppName.dir/includes_CXX.rsp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj: D:/AppName/src/LinkedList/LinkedList_Animation.cpp
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj: CMakeFiles/AppName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AppName\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.obj -c D:\AppName\src\LinkedList\LinkedList_Animation.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.obj -MF CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.obj.d -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.obj -c D:\AppName\src\LinkedList\LinkedList_Animation.cpp
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList_Animation.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AppName\src\LinkedList\LinkedList_Animation.cpp > CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.i
 
 CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppName.dir/src/LinkedList/LinkedList_Animation.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList_Animation.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AppName\src\LinkedList\LinkedList_Animation.cpp -o CMakeFiles\AppName.dir\src\LinkedList\LinkedList_Animation.cpp.s
 
 # Object files for target AppName
 AppName_OBJECTS = \

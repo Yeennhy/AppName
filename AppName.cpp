@@ -35,60 +35,28 @@ bool IsMouseOverButton(int startX, int startY, int width, int height) {
     return false;
 }
 
-int main()
-{
+int main(){
     InitWindow(screenWidth, screenHeight, "Visualization App");
-    SetTargetFPS(60);
+    SetTargetFPS(120);
 
     LinkedListNode *head = nullptr;
-    // insertNode(head, 5);
-    // insertNode(head, 6);
-    // insertNode(head, 7);
+    LinkedList list;
+    Vector2 start = {100, 100};
+    Vector2 end = {500, 500};
 
-    int nums[50] = {1, 3, 5, 43, 2, 9, 10, 78, 23};
-    int id = -1;
-    int second[50] = {3, 5, 7, 45, 4, 11, 12, 80, 25};
+    int nums[50] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int nums2[50] = {43, 21, 31, 56, 45, 32, 34, 81, 91, 11};
+    int id = 0;
+    LinkedListNode * head = nullptr;
 
-    while (!WindowShouldClose())
-    {
-        int r = 100;
-        int font_size = 40;
-        int spacing = 120;
-        Vector2 center = {screenWidth/2, screenHeight / 2};
-
+    while (!WindowShouldClose()){
         BeginDrawing();
         ClearBackground(GRAY);
-
-        // DrawLinkedList(head);
-        DrawRectangle(50, 50, 90, 25, PINK);
-        Vector2 mousePosition = GetMousePosition();
-        if (IsMouseOverButton(50, 50, 90, 25)) {
-            id ++;
-            if (!head) insertNode(head, nums[id]);
-            else traverse(head, nums[id]);
-        }
-
-        if (head) DrawLinkedList(head);
-
-        //delete
-        DrawRectangle(200, 50, 90, 25, BLUE);
-        if (IsMouseOverButton(200, 50, 90, 25)) {
-            deleteNode(head, nums[id]);
-            id --;
-        }
-
-        if (head) DrawLinkedList(head);
-
-        //update
-
-        DrawRectangle(300, 50, 90, 25, GREEN);
-        if (IsMouseOverButton(300, 50, 90, 25) && id >= 0) {
-            update1(head, nums, second[id], id);
-        }
-
-        if (head) DrawLinkedList(head);
-
         EndDrawing();
+        if (IsKeyPressed(KEY_SPACE)){
+            list.insertNode(head, nums[id]);
+            id ++;
+        }
     }
 
 

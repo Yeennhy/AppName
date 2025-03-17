@@ -9,5 +9,3 @@ using namespace std;
 // // Global Variable
 // const int screenWidth = 1100;
 // const int screenHeight = 1100;
-const int screenWidth = 1100;
-const int screenHeight = 1100;
