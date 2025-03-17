@@ -58,15 +58,33 @@ void LinkedList::MoveCircle(Vector2 start, Vector2 end, int key){
 
 void LinkedList::DrawLinkedlist(LinkedListNode* head){
     if(!head) return;
+    int count = FindSumNode(head);
+    Vector2 center = Getposition(count);
     while(head){
-        Vector2 center = {head->x, head->y};
         DrawNode(center, head->val, 0);
         if(head->next){
-            Vector2 newCenter = {head->next->x, head->next->y};
+            Vector2 newCenter = {center.x + 2 * radius + spacing, center.y};
             DrawArrow(center, newCenter);
             center = newCenter;
         }
         head = head->next;
     }
+}
+
+Vector2 LinkedList::Getposition(int count){
+    int d = 2 * radius * count + (count - 1)*spacing;
+    Vector2 center = {(screenWidth/2 - d/2) + radius, screenHeight/2};
+    return center; 
+}
+
+int LinkedList::FindSumNode(LinkedListNode* head){
+    if(!head) return 0;
+    int cnt = 0;
+    LinkedListNode* tmp = head;
+    while(tmp){
+        cnt++;
+        tmp = tmp->next;
+    }
+    return cnt;
 }
 

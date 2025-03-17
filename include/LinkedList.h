@@ -2,7 +2,6 @@
 
 struct LinkedListNode {
     int val;
-    int x, y;
     LinkedListNode* next;
 };
 
@@ -49,5 +48,6 @@ class LinkedList {
         void DrawCode(int x, int y, string text);
         void MoveCircle(Vector2 start, Vector2 end, int key);
         void DrawLinkedlist(LinkedListNode* head);
-
+        Vector2 Getposition(int count);
+        int FindSumNode(LinkedListNode* head);
 };
